@@ -9,7 +9,11 @@ The design stems from the physical format of the trading card. The central page 
 The content would be the least minimal thing about the project, in that everything would have to be curated. The data could be streamlined once determined, but there would be considerable initial research. The visual design would likely be standardized, but the images would have to be creative commons. Ideally there would be sounds, probably edited and/or recorded with audacity. In some instances video might also be interesting, for instance the many recordings of "beefs" between Norman Mailer and William F Buckley, and the recordings of Buckley threatening Gore Vidal, and later Noam Chomsky, on television (why does everyone think discourse used to be elevated?). Due to copyright issues this may not be possible, but it would be an interesting addition. In future it may be possible to expand the idea given the amazing access to "beefs" through social media like twitter/Facebook/Worldstar Hiphop???
 ## 2.	Remarks about digital studies and minimal computing (the type of minimalism/ case studies)
 ## 3.	Draw from course material
+
+In a truly bizarre way, the !!!BEEFS!!! site somewhat resembles Black Quotidian, Linked Jazz, and *maybe* Public Secrets. The similarity is mainly in the curatorial work that has to be done for the project to be successful. This is the rabbit hole that a curated site like !!!BEEFS!!! often runs into. As they grow and expand they tend to become unmanageable and require exponential amounts of labour. 
 ## 4.	What’s missing? What would be helpful for this group . . . ? Audience???
+
+Other than the obvious potential audience of avid readers and fans of literature, the site may also appeal to literary historians. Once !!!BEEFS!!! had a large enough database it could potentially be useful to scholars looking at networks of intellectual disagreement, favoured methods of dispute of particular literary movements, or other stranger datasets.
 ## 5.	Questions? Suggestions? Word Choice? Recommendations? 
 
 
