@@ -2,7 +2,7 @@
 ##23 May 2017
 ###E-lit and survey of DH
 What is digital/cultural/literary studies?
-McPherson  (Lierature of the American South)
+McPherson  (Literature of the American South)
 *About/in/through
 *How a project stands on its own?
 *How do “things” work like essays/work on their own?
