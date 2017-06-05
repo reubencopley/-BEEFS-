@@ -63,7 +63,9 @@ Flashpoem – Cinematic poem, poem that feels like cinema, intentional, not subt
 
 ###What do you think you are doing to interpretation when you insert into/work in digital environment?
 ###Decision on/of encoding? Affirming/ambivalent?
- 
+
+When converting ee cummings' poem into markdown, the most aparent issues faced were when it came to creating a set amount of spacing to better create a fascimile (style). Also, the inclusion of backslashes in order to let the computer know that the function of each key is mere but the unit itself definitely added contetn that (obviosuly) was not present on the original, therefore, changing the poem into the digital added more material. 
+
 Joey’s comment on note 60 sentence. The totality of Digital as encompassing. Digital as capitalism, that which cannot be emulated, preserved, digitized? Digitization efforts. Even if everything can be digitized, will it be? Digital insecurity? What do we not want to digitize? 
 Interaction – what does that word mean? 
 Lev Manovich in his influential The Language of New Media.
@@ -109,8 +111,6 @@ Sublime Text – text editor for code/markup/prose, distraction free text editor
 Markdown – text to html conversion tool, to html/.doc/.docx/.pdf
 Pandoc – converts any markup to another
 pandoc -s xxxxxxxx.txt -o xxxxxxxx.html (command line)
-
-
 
 Really like the YHCHI interview where they say:
 YHC HI: Well, for us, choice doesn't equal fantasy. Or rather, you could argue that a lack of choice equals fantasy. After all, it's societal strictures and problems without evident solutions that inspire our longings and musings. People equate choice with democracy, but no one ever said that art and literature were democracies. We would like our own work to exert a dictatorial stranglehold on the reader.
@@ -196,8 +196,6 @@ Inserted annotation/embedded
 The ending is fixed “John and Mary die” the events up to the fixed ending. 
 Crickets, and silencio silencio		silencio silencio
 
-*Python workshop should be inserted here?, or was this markdown workshop?????*
-
 If you change the text does this still work? Interface design. Inseparable? Can content and interface be separated?
 The interface without the txt at all? Can it be described without the text? Authorial intention.
 Making the interface as contingency free as possible
@@ -214,6 +212,8 @@ Responsivity – across machines, from this to that
 Space/time as values – what is negative space (absence/presence) why wait? 
 Texture – engagement, how are people most obviously using? Marks/layers of use
 Learnability – habit, the common language of interface, standardization, interpretation into habit.
+
+Through the four/five different interface prompts, taking into account accessibility for the said interfaces, coming up with a concrete plan as to how design something that will be both minimal structurally as well as easy to navigate through was a rather aparent challenge. Taking space/time into consideration, we came up with the idea of creating a chat window-like type of interface where the text will come up after a programed set of time taking agency away from the user and presenting the text ina set amount of time. For annotation we did a genius-like sort of approach but only letting the user annotate whatever is in parenthesis. Again we gave the user a minimal amount of agency over the interface. FOr the hystorical/contextual interface, we stripped down the function of input by typing only in lowercase, mimicing ee cummings' own style of poetics (barebones text typing all in lowercase). With regards to space, we divided the poem into two bubble, one marked as "said he" and the other as "said she" where if the user scrolls over the bubbles, all of the lines that each has "said" in the poem would pop out (divided by whom said the line) minimalizing the space taken by narrowing the entirety of the text down to simple bubbles grouped up with all the text in it. Our final interface was creating a playlist of each individual line of the poem. This by far was the interface that might have been the most "accessible friendly" in comparisson to the other interfaces since it implemented sounds as a component of how the text is presented to the user (more or less like a text-to-speech type of deal). 
 
 ##25 May 2017
 Shift from functional to structural minimalism
@@ -232,6 +232,8 @@ Reduction of features reduces learning curve – exploits may be present but not
 The structure of the thing – movement – metadata, navigation, menus, selection, 
 Benjamin Bratton? The Stack?? Software and Sovereignty
 Structuralism – 
+
+For this workshop, we tried to turn our text from markdown to html and make it reader accessible (rather unsuccessfully(. Through markdown, we were able to highlight important or relevant passages to a theme of our chosing by implementing hashes as a means to distinguish the text both visually through how html expresses said hashes and auditively (if using a text to speech reader) by seperating these relevant themes through the different array of "headers." The markdown did successfully transmit into html, but the proble that arose was throgu how convoluded window's own ready was to hadle. At one point we managed to get it to work, adn the text itself did wokr as planned, having the separation through the different headers. 
 
 ####2 questions about mock-ups/wireframes –
 What did you have to cut out to make it work?
@@ -288,7 +290,20 @@ Tuesday – An idea / feedback /
 Simple bots, scripts, programs, wireframes, simple exhibit, method for examining text
 Project development – practical matters? 
 Literary Beefs? 
-Taking it apart? How does it work? 
+Taking it apart? How does it work?
+
+We workshopped the idea of having a site that would show the different relationships that films within the criterion collection share. We divided the criteria into : cinematic movement, colour technology, awards, trope and source material. the way we decided to display the "density of the relationship was visually through different film stocks being 70mm if the relation was 1:1 16mm if there was a somewhat close relation between the both of the films and the field they are being analyzed for their relation and finally 8mm for rather loose relation between both of the films (commitment to style and source material was a must). Ideally, we also wnated to show the spools where the film names were being displayed to also show the density of relation between the fill (the fuller the spool of film, the more relations one film had with the other depending on what fiel they were sharing). 
+
+The Barbarash BASH!
+
+Materials - fonds materials would be projected, distributed in facsimile form (pamphlets, zines, flyers, stamps, stickers, banners, balloons - eg material that is somewhat or completely ephemeral, relatively cheap, and easily distributable), possibly could also be relayed via ephemeral social media (eg snapchat), original material would remain in fonds.
+Descriptions - could be attached to distributed materials as supplement with information about Barbarash, and artwork would also spread the description information. 
+
+The exhibit would be prefaced by event information spread by numerous media (zines, pamphlets, posters, local bands, social media), event would start on campus and roam around ring road sharing material, projecting material, accompanied by animal rights music, megaphones, painting stencils (temp paint/chalk/stickers) ideally would occur during another (more mainstream events, orientation/???????)
+
+curatorial decisions could potentially be inserted into distributed materials, but could also be relayed by voice/social media/augmented reality (but this seems a little antithetical to the spirit of the exhibit.
+
+physically, the exhibit would cycle around a public space (we were discussing ring road, but that is pretty large, so perhaps the central quad of the university/ the SUB?/ Administration building?Sciences-biology???) and would intervene/interfere/interact with the public regardless of their knowledge of the exhibit or their willingness to join. It would cycle in this space for a certain amount of time, but at a pre-determined moment, groups would be encouraged to breakout and move to other locales via bike or public transit to expand exhibit to other locations (government buildings/restaurants/corporations that perform animal experimentation). This would also allow for the exhibit to start in the day, and then conclude in the evening (allowing for Illuminator style projections onto new exhibit locations).
 
 ##May 26 – Context of access – perceived complexity
 Architectural minimalism is more about systems
@@ -391,6 +406,8 @@ Audience – Literature enthusiasts / readers?
 Sources – Book Titles (grammar), likely source would be project gutenburg. 
 Variables – The titles, the grammar of the titles, and the text itself. 
 
+For this workshop we decided to "program" a title changer based on the amount of times that specific words appear in the text. Ideally, the program would then scan the entirety of the text and compile a lsit of the most frequently used words. We would need to include into the program's code a way for it to be able to distinguish words by grammatical functions, that way the output for the title is at bes 1:1 with the type of word that it is replacing from the original. The hardest part of coding a way for the computer to distinguish between grammatical functions is the overlap that some words share when it comes toy their function in a sentence (nouns that are also verbs and the like). As far a API integration, we though of utilizing wordnik's database to somehow parse out and identify the type of word that the program itself is able to identify. The way that the title will be displayed will be through a common occurence rate of words (1st noun will be the most frequent appeared word, for every subsequent noun, the program will replace said word with the 2nd most frequent noun etc. for all other words). 
+
 Prototype:
 
 
@@ -430,6 +447,8 @@ Recipe: software, content, text
 Aesthetic: 
 Biases: own biases/ biases of recipe/ commercial? software? Proclivities?
 Influences: 3-5 examples across digital literature? Other forms? 2-3 pages?
+
+*The workshop for this project can be foun under the Presentation folder*
 
 # Peer Review (from Heidi and Rachelle)
 
