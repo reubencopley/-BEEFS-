@@ -37,21 +37,6 @@
 {"_id":{"$oid":"595447b2c848f6f80523a692"},"first_name":"Bevis","last_name":"Hillier"}
 {"_id":{"$oid":"595447b2c848f6f80523a693"},"first_name":"Irving","last_name":"Howe"}
 {"_id":{"$oid":"595447b2c848f6f80523a694"},"first_name":"John","last_name":"Irving"}
-{"_id":{"$oid":"595447b2c848f6f80523a695"},"first_name":"Truman","last_name":"Capote"}
-{"_id":{"$oid":"595447b2c848f6f80523a696"},"first_name":"Agatha","last_name":"Christie"}
-{"_id":{"$oid":"595447b2c848f6f80523a697"},"first_name":"Samuel","middle_name":"Taylor","last_name":"Coleridge"}
-{"_id":{"$oid":"595447b2c848f6f80523a698"},"first_name":"Cyril","last_name":"Connolly"}
-{"_id":{"$oid":"595447b2c848f6f80523a699"},"first_name":"Edward","last_name":"Davies"}
-{"_id":{"$oid":"595447b2c848f6f80523a69a"},"first_name":"Charles","last_name":"Dickens"}
-{"_id":{"$oid":"595447b2c848f6f80523a69b"},"first_name":"Fyodor","last_name":"Dostoevsky"}
-{"_id":{"$oid":"595447b2c848f6f80523a69c"},"first_name":"Margaret","last_name":"Drabble"}
-{"_id":{"$oid":"595447b2c848f6f80523a69d"},"first_name":"Theodore","last_name":"Dreiser"}
-{"_id":{"$oid":"595447b2c848f6f80523a69e"},"first_name":"Jennifer","last_name":"Egan"}
-{"_id":{"$oid":"595447b2c848f6f80523a69f"},"first_name":"Henry","last_name":"Fielding"}
-{"_id":{"$oid":"595447b2c848f6f80523a6a0"},"first_name":"Tibor","last_name":"Fischer"}
-{"_id":{"$oid":"595447b2c848f6f80523a6a1"},"first_name":"Francis","middle_name":"Scott","last_name":"Fitzgerald"}
-{"_id":{"$oid":"595447b2c848f6f80523a6a2"},"first_name":"Rishard","last_name":"Ford"}
-{"_id":{"$oid":"595447b2c848f6f80523a6a3"},"first_name":"Jonathan","last_name":"Franzen"}
 {"_id":{"$oid":"595447b2c848f6f80523a6a4"},"first_name":"William","last_name":"Giraldi"}
 {"_id":{"$oid":"595447b2c848f6f80523a6a5"},"first_name":"Luis","last_name":"de Góngora"}
 {"_id":{"$oid":"595447b2c848f6f80523a6a6"},"first_name":"Gunter","last_name":"Grass"}
