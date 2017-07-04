@@ -1,0 +1,2129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<link type="text/css" media="screen" rel="stylesheet" href="stylesheet_main.css"/>
+
+<title>Beefs</title>
+<style>
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+	transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
+	
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 2px black solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+	
+}
+
+
+header {
+  	background-color: #CC0000;
+  	font-size: 25px;
+  	color: #F5E6D5;
+	text-align: center;
+	
+}
+
+footer {
+  	background-color: #CC0000;
+  	font-size: 20px;
+  	color: #F5E6D5;
+	text-align: center;
+}
+</style>
+</head>
+
+
+
+
+<!--Need to insert a navbar, set up the 3 fields/columns, insert the buttons for all authors, write code to bring up image when button is clicked, the image also must reveal all associated authors in the right field, images will reveal when hovered over. Buttons must be colour-coded to indicate type of Beef. Must have legend inserted somewhere on Main.-->
+<body>
+
+<nav>
+	<ul>
+		<li>
+			<a href="About.html">Rationale</a>
+		</li>
+		<li>
+			<a href="index.html">Beefs</a>
+		</li>
+		<li>
+			<a href="Whom.html">Whom?</a>
+		</li>
+	</ul>
+</nav>
+
+<div class="container">
+	<div1>
+		<ul>
+			<li class="authorbutton"><a href="#id01">Endre Ady</a></li>
+			<div id="id01" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Endre Ady</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Endre Ady (1877-1919) Hungarian poet and journalist. Ady was a member of the Huszadik Század group.</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: All other Hungarian poets | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id02">Kingsley Amis</a></li>		
+				<div id="id02" class="modal">
+  					<div class="modal-dialog">
+    					<div class="modal-content">
+      						<header class="container"> 
+        						<a href="#" class="closebtn">×</a>
+        						<h2>Kingsley Amis</h2>
+      						</header>
+      						<div class="container">
+        						<p style="font-size:150%">Kingsley Amis (1877-1919) English Poet, Critic, and Novelist. T Kingsley was the father of famous writer, Martin Amis.</p>
+      						</div>
+      						<footer class="container">
+        						<p>Beefs: Martin Amis | Professional:(0) | Psychological/emotional: (10) | Physical (0)</p>
+      						</footer>
+    					</div>
+  					</div>
+				</div>			
+
+			<li class="authorbutton"><a href="#id03">Martin Amis</a></li>
+			<div id="id03" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Endre Ady</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Martin Amis (????).</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id04">Sherwood Anderson</a></li>
+			<div id="id04" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Sherwood Anderson</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Sherwood Anderson (????).</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id05">Maxim Antonovich</a></li>
+			<div id="id05" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Maxim Antonovich</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Maxim Antonovich (????)</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id06">Jane Austen</a></li>
+			<div id="id06" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jane Austen</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jane Austen (1877-1919)</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:| Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id07">Claire Bloom</a></li>
+			<div id="id07" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Claire Bloom</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Claire Bloom (????) .</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id08">Germain de Brie</a></li>
+			<div id="id08" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Germain de Brie</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Germain de Brie (????)</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id09">Charles Bukowski</a></li>
+			<div id="id09" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Charles Bukowski</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Charles Bukowski</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(0) | Psychological/emotional: (0) | Physical (0)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id10">Anthony Burgess</a></li> 
+			<div id="id10" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Anthony Burgess</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Anthony Burgess</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id11">Edgar Rice Burroughs</a></li>
+			<div id="id11" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Edgar Rice Burroughs</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Edgar Rice Burroughs</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id12">AS Byatt</a></li>
+			<div id="id12" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>AS Byatt</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">AS Byatt</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id13">George Gordon Byron (Lord Byron)</a></li>
+			<div id="id13" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>George Gordon Byron (Lord Byron)</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">George Gordon Byron (Lord Byron)</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id14">Truman Capote</a></li>
+			<div id="id14" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Truman Capote</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Truman Capote</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id15">Agatha Christie</a></li>
+			<div id="id15" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Agatha Christie</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Agatha Christie</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id16">Samuel Taylor Coleridge</a></li>
+			<div id="id16" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Samuel Taylor Coleridge</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Samuel Taylor Coleridge</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id17">Cyril Connolly</a></li>
+			<div id="id17" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>yril Connolly</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Cyril Connolly</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id18">Edward Davies</a></li>
+			<div id="id18" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Edward Davies</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Edward Davies</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id19">Charles Dickens</a></li>
+			<div id="id19" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Charles Dickens</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Charles Dickens</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id20">Fyodor Dostoevsky</a></li>
+			<div id="id20" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Fyodor Dostoevsky</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Fyodor Dostoevsky</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id21">Margaret Drabble</a></li>
+			<div id="id21" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Margaret Drabble</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Margaret Drabble</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id22">Theodore Dreiser</a></li> 
+			<div id="id22" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Theodore Dreiser</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Theodore Dreiser</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id23">Jennifer Egan</a></li>	
+			<div id="id23" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jennifer Egan</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jennifer Egan</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id24">Henry Fielding</a></li>
+			<div id="id24" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Henry Fielding</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Henry Fielding</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id25">Tibor Fischer</a></li> 
+			<div id="id25" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Tibor Fischer</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Tibor Fischer</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id26">F. Scott Fitzgerald</a></li>
+			<div id="id26" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>F. Scott Fitzgerald</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">F. Scott Fitzgerald</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id27">Richard Ford</a></li>
+			<div id="id27" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Richard Ford</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Richard Ford</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id28">Jonathan Franzen</a></li>
+ 				<div id="id28" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jonathan Franzen</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jonathan Franzen</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+			
+
+			<li class="authorbutton"><a href="#id29">William Giraldi</a></li>
+			<div id="id29" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>William Giraldi</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">William Giraldi</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id30">Luis de Góngora</a></li>
+			<div id="id30" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Luis de Góngora</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Luis de Góngora</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id31">Gunter Grass</a></li>
+			<div id="id31" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Gunter Grass</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Gunter Grass</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id32">Rufus Griswold</a></li>
+			<div id="id32" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Rufus Griswold</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Rufus Griswold</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id33">Bret Harte</a></li>
+			<div id="id33" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Bret Harte</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Bret Harte</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id34">Lóránt Hegedüs</a></li> 
+			<div id="id34" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Lóránt Hegedüs</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Lóránt Hegedüs</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id35">Lillian Hellman</a></li>
+			<div id="id35" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Lillian Hellman</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Lillian Hellman</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id36">Ernest Hemingway</a></li>
+			<div id="id36" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Ernest Hemingway</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Ernest Hemingway</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id37">Bevis Hillier</a></li>
+			<div id="id37" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Bevis Hillier</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Bevis Hillier</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id38">Irving Howe</a></li>
+			<div id="id38" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Irving Howe</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Irving Howe</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id39">John Irving</a></li>
+			<div id="id39" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>John Irving</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">John Irving</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id40">Henry James</a></li>
+			<div id="id40" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Henry James</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Henry James</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id41">Randall Jarrell</a></li>
+			<div id="id41" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Randall Jarrell</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Randall Jarrell</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id42">John Keats</a></li>
+			<div id="id42" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>John Keats</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">John Keats</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id43">Jack Kerouac</a></li>
+			<div id="id43" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jack Kerouac</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jack Kerouac</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id44">Otis Adelbert Kline</a></li>
+			<div id="id44" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Otis Adelbert Kline</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Otis Adelbert Kline</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id45">Stephen King</a></li>
+			<div id="id45" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Stephen King</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Stephen King</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id46">Philip Larkin</a></li>
+			<div id="id46" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Philip Larkin</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Philip Larkin</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id47">F.R. Leavis</a></li>
+			<div id="id47" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>F.R. Leavis</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">F.R. Leavis</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id48">John Le Carre</a></li>
+			<div id="id48" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>John Le Carre</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">EJohn Le Carre </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+			
+			<li class="authorbutton"><a href="#id49">Sinclair Lewis</a></li>
+			<div id="id49" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Sinclair Lewis</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Sinclair Lewis </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:| Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id50">Mario Vargas Llosa</a></li>
+			<div id="id50" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Mario Vargas Llosa</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Mario Vargas Llosa</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id51">Henry Wadsworth Longfellow</a></li>
+			<div id="id51" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Henry Wadsworth Longfellow</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Henry Wadsworth Longfellow </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id52">Malcolm Lowry</a></li>
+			<div id="id52" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Malcolm Lowry</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Malcolm Lowry </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id53">Norman Mailer</a></li>
+			<div id="id53" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Norman Mailer</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Norman Mailer</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id54">Giambattista Marino</a></li>
+			<div id="id54" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Giambattista Marino</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Giambattista Marino </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id55">Gabriel Garcia Marquez</a></li>
+			<div id="id55" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Gabriel Garcia Marquez</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Gabriel Garcia Marquez</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id56">W Somerset Maugham</a></li>
+			<div id="id56" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>W Somerset Maugham</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">W Somerset Maugham</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id57">Caroline May</a></li>
+			<div id="id57" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Caroline May</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Caroline May</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id58">Mary McCarthy</a></li>
+			<div id="id58" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Mary McCarthy</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Mary McCarthy</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id59">Cormack McCarthy</a></li>
+			<div id="id59" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Cormack McCarthy</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Cormack McCarthy</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:| Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id60">Ashoka Mitran</a></li>
+			<div id="id60" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Ashoka Mitran</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Ashoka Mitran</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id61">Rick Moody</a></li>
+			<div id="id61" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Rick Moody</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Rick Moody</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id62">Sir Thomas More</a></li>
+			<div id="id62" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Sir Thomas More</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Sir Thomas More</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id63">Iolo Morganwg</a></li>
+			<div id="id63" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Iolo Morganwg</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Iolo Morganwg</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id64">Gaspare Murtola</a></li>
+			<div id="id64" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Gaspare Murtola</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Gaspare Murtola</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id65">Vladimir Nabokov</a></li>
+			<div id="id65" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Vladimir Nabokov</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Vladimir Nabokov</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id66">VS Naipaul</a></li>
+			<div id="id66" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>VS Naipaul</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">VS Naipaul</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id67">Nikolay Nekrasov</a></li>
+			<div id="id67" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Nikolay Nekrasov</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Nikolay Nekrasov</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id68">Vanna Nilavan</a></li>
+			<div id="id68" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Vanna Nilavan</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Vanna Nilavan</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id69">Joseph O'Neills</a></li>
+			<div id="id69" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Joseph O'Neills</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Joseph O'Neills</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id70">Alex Ohlin</a></li>
+			<div id="id70" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Alex Ohlin</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Alex Ohlin</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id71">James Patterson</a></li>
+			<div id="id71" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>James Patterson</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">James Patterson</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id72">Dale Peck</a></li>
+			<div id="id72" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Dale Peck</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Dale Peck</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id73">Dmitry Pisarev</a></li>
+			<div id="id73" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Dmitry Pisarev</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Dmitry Pisarev</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id74">Alexander Pope</a></li>
+			<div id="id74" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Alexander Pope</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Alexander Pope</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id75">Marcel Proust</a></li>
+			<div id="id75" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Marcel Proust</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Marcel Proust</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id76">Francisco de Quevedo</a></li>
+			<div id="id76" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Francisco de Quevedo</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Francisco de Quevedo</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id77">Philip Rahv</a></li>
+			<div id="id77" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Philip Rahv</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Philip Rahv</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id78">Ruth Rendell</a></li>
+			<div id="id78" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Ruth Rendell</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Ruth Rendell</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id79">Samuel Richardson</a></li>
+			<div id="id79" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Samuel Richardson</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Samuel Richardson</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id80">Arthur Rimbaud</a></li>
+			<div id="id80" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Arthur Rimbaud</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Arthur Rimbaud</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id81">Phillip Roth</a></li>
+			<div id="id81" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Phillip Roth</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Phillip Roth</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: A| Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id82">Jean-Jacques Rousseau</a></li>
+			<div id="id82" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jean-Jacques Rousseau</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jean-Jacques Rousseau</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id83">Salman Rushdie</a></li>
+			<div id="id83" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Salman Rushdie</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Salman Rushdie</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id84">Vita Sackville-West</a></li>
+			<div id="id84" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Vita Sackville-West</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Vita Sackville-West</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id85">Zadie Smith</a></li>
+			<div id="id85" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Zadie Smith</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Zadie Smith</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id86">C.P. Snow</a></li>
+			<div id="id86" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>C.P. Snow</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">C.P. Snow</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id87">Gertrude Stein</a></li>
+			<div id="id87" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Gertrude Stein</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Gertrude Stein</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div> 
+
+			<li class="authorbutton"><a href="#id88">Bram Stoker</a></li>
+			<div id="id88" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Bram Stoker</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Bram Stoker</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id89">Su Samuthiram</a></li>
+			<div id="id89" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Su Samuthiram</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Su Samuthiram</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id90">Jonathan Swift</a></li>
+			<div id="id90" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jonathan Swift</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jonathan Swift</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id91">William Makepeace Thackeray</a></li>
+			<div id="id91" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>William Makepeace Thackeray</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">William Makepeace Thackeray</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id92">Paul Theroux</a></li>
+			<div id="id92" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Paul Theroux</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Paul Theroux </p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id93">Leo Tolstoy</a></li>
+			<div id="id93" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Leo Tolstoy</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Leo Tolstoy</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id94">Lewis Putnam Turco</a></li>
+			<div id="id94" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Lewis Putnam Turco</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Lewis Putnam Turco</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id95">Ivan Turgenev</a></li>
+			<div id="id95" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Ivan Turgenev</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Ivan Turgenev</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id96">Mark Twain</a></li>
+			<div id="id96" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Mark Twain</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Mark Twain</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id97">John Updike</a></li>
+			<div id="id97" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>John Updike</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">John Updike</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id98">Paul Verlaine</a></li>
+			<div id="id98" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Paul Verlaine</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Paul Verlaine</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id99">Gore Vidal</a></li>
+			<div id="id99" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Gore Vidal</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Gore Vidal</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id100">Voltaire</a></li>
+			<div id="id100" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Voltaire</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Voltaire</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id101">Derek Walcott</a></li>
+ 				<div id="id101" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Derek Walcott</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Derek Walcott</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:| Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id102">HG Wells</a></li>
+			<div id="id102" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>HG Wells</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">HG Wells</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id103">Jennifer Weiner</a></li>
+			<div id="id103" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Jennifer Weiner</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Jennifer Weiner</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id104">Colson Whitehead</a></li>
+			<div id="id104" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Colson Whitehead</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Colson Whitehead</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id105">Oscar Wilde</a></li>
+			<div id="id105" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Oscar Wilde</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Oscar Wilde</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id106">A.N. Wilson</a></li>
+			<div id="id106" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>A.N. Wilson</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">A.N. Wilson</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id107">Edmund Wilson</a></li>
+			<div id="id107" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Edmund Wilson</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Edmund Wilson</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id108">Tom Wolfe</a></li>
+			<div id="id108" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>Tom Wolfe</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">Tom Wolfe</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id109">James Wood</a></li>
+			<div id="id109" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>James Wood</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">James Wood</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs:  | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+
+			<li class="authorbutton"><a href="#id110">William Wordsworth</a></li>
+			<div id="id110" class="modal">
+  				<div class="modal-dialog">
+    				<div class="modal-content">
+      					<header class="container"> 
+        					<a href="#" class="closebtn">×</a>
+        					<h2>William Wordsworth</h2>
+      					</header>
+      					<div class="container">
+        					<p style="font-size:150%">William Wordsworth</p>
+      					</div>
+      					<footer class="container">
+        					<p>Beefs: | Professional:(10) | Psychological/emotional: (2) | Physical (-10)</p>
+      					</footer>
+    				</div>
+  				</div>
+			</div>
+		</ul>
+	</div1>
+	<p id="explanarium">The initial intention was to create a three column visualization. When the author link is selected an image and text would appear in the central column and the associated 'Beefs' would appear in the right column. As this project was time-limited we have instead settled for a modal box display for information. When the links are selected a modal box appears with the name of the author, a short bio, and select 'Beefs' that they may have had, or others may have had with them. Those 'Beefs' are given a -10 to 10 rating in three categories: Professional, Psychological/emotional, and Physical. Professional 'beefs' are disputes that arise from reviews or criticism, or professional rivalry. Psychological/emotional 'beefs' relate to disputes that arise from a separate psychological or emotional reaction than that of the purely professional (such as disputes or rivalries between family members or lovers). The physical 'beef' is not as obvious as it may seem at first. A physical dispute may involve direct physical contact, but in some instances may be more complex. For instance, the act of destroying a physical representation of another author's ideas is both physical and psychological and the rankings would reflect this. It is an arbitrary system that may change at a later point. As is the entire 'Beefs' project. We are amateur html/css practitioners and the current state of BEEFS reflects that. We ask you to be patient as this idea grows into something more polished. Take a look at the 'beefs' we have compiled, and enjoy the 'beefs'!
+	</p>
+	</div>
+	
+	<!--
+<div2 class="container1">
+  <p>A lightbox? or simply a vertically centered text</p>
+  <p>box that gives relevant information in text</p>
+</div2>
+-->
+<!--	
+	<div3>
+			
+	</div3>
+	</div>
+-->	
+</body>
+</html>
